@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="jpg/icons8.png" type="image/x-icon">
+    <link href="css/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <title>My life</title>
+</head>
+<body>
+    
+    <header class="main_top #back-top">
+      <div class="header_box_left">
+          <div role="navigation" id="menu-toggle" >
+              <div id="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               
+              </div>
+          </div>
+          <div class="logotip">
+            <!--------- переключатели языков -->
+            <input class='rus wow pulse tr-over' data-wow-iteration="10" type=button value='ru' width="30" height="30">
+            <input class='eng wow pulse'  data-wow-iteration="10" type=button value='en' width="30" height="30">
+            <input class='ua wow pulse' data-wow-iteration="10" type=button value='ua' width="30" height="30">
+          </div>
+      </div>
+      <div class="overlay header_box_center ">
+          <ul class="menu_top  ">
+              
+              <li>
+                  <a href="#aboutMe" class="active">
+                      <span class="menu_top__icon icon icon-pen "></span><span class="localization " caption='aboutMeNav'>Обо мне</span>
+                  </a>
+              </li>
+              <li class="menu_top__product-catalog">
+                      <a href="#"><span class="menu_top__icon icon icon-pen">
+                         
+                       </span>
+                       <span class="localization " caption='myWork'>Моя верстка</span>
+                           <img src="jpg/icon_arrow_down.svg" alt="стрела вниз" class="menu_top__icon_arrow_down">
+                      </a>
+                  <div class="dropdown-catalog">
+                      <a class="dropdown-item"  data-newwindow href="https://prokopenko1.github.io/projekt2/index.html">"Adventures"
+
+                      </a>
+                      <a href="">"" 
+                                             </a>
+                      <a href="">"" 
+                                            </a>
+                      <a href="">"" 
+                                                </a>
+                  </div>
+              </li>
+              <li>
+                  <a href="#mySkills">
+                      <span class="menu_top__icon icon icon-pen">
+                         
+                      </span>
+                      <span class="localization" caption='mySkills'>Мои навыки</span>           
+                  </a>
+              </li>
+              
+              <li>
+                  <a href="#muHobbies">
+                      <span class="menu_top__icon icon icon-pen">
+                      
+                      </span>
+                      <span class="localization" caption='hob'>Хобби</span>           
+                  </a>
+              </li>
+              <li>
+                <a href="#contactMe">
+                    <span class="menu_top__icon icon icon-pen">
+                    
+                    </span>
+                    <span class="localization" caption='conectWhithMe'>Связаться со мной</span>           
+                </a>
+            </li>
+          </ul>
+      </div>
+     
+
+  </header>
+    <!-- <div class="preloader">
+        <div class="preloader_image"></div>
+      </div> -->
+    <!-- навиганция -->
+    <!-- <nav class="navbar navbar-dark bg-dark fixed-top shadow"> -->
+      
+    <!-- контент профиля -->
+    <div class="container-fluid  "> 
+        <div class="row  djambaRe profile ">
+            <div class="col-12 photoName text-center pt-3">
+                <img src="jpg/photo_1.jpg" class=" wow bounceIn " width=30%  alt="">
+                <h2 class="mt-3 wow bounceIn localization" caption='name'>Привет! Меня зовут Евгений</h2>
+            </div>
+        </div>
+        <!-- джамбатрон -->
+        <div id='mySkills'></div>
+        <div class=" mt-5">
+          <h2 class="localization " caption='life' >Жизненный опыт</h2>
+          <div class="mt-4 p-4 bg-dark text-white rounded djambaRemow">
+            <h1 class="localization" caption='aboutMe'>Немного о себе</h1> 
+            <p class="localization"   caption='infoOne'>Учиться и открывать для себя что-то новое никогда не поздно! Время летит так, что можно и не понять  что произошло. В детстве я мечтал стать программистом, но пошел в юриспруденцию. Эта работа мне не приносила удовольствия, и я решил осуществить свою детскую мечту и попробовать себя в IT. Приглянулась специальность фронтендера. Постепенно начал изучать верстку,  JavaScript , фрейморк Bootstrap и библиотеку jQuery. 
+              Технологии идут вперед и приходится пыхтеть. На даный момент изучаю React.js.</p> 
+          </div>
+        </div>
+        <!-- навыки -->
+        
+        <div class="row text-center mt-5" >
+        <h2 class="wow bounceIn localization" caption='mySkills'>Мои навыки</h2>
+        </div>
+          <div class="row row-cols-1 row-cols-md-4 g-4 mt-2 djambatron  ">
+           
+            <div class="col djambaRemow">
+              <div class="card wow bounceIn" >
+                <img src="jpg/Frontend.png" class="card-img-top card-hover-effect djambaRemow" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">FrontEnd</h4>
+                    <ul class="nonMargin">
+                      <li class="card-text localization">HTML, CSS, JavaScript, GitHub.</li>
+                      <li class="card-text localization">Less SASS(SCSS).</li>
+                      <li class="card-text localization">jQuery, Bootstrap, GitHub.</li>
+                      <li class="card-text localization" caption='frontEnd'>Начал изучать React.js.</li>
+                   </ul>           
+                </div>
+              </div>
+            </div>
+          
+            <div class="col djambaRemow ">
+              <div class="card wow bounceIn" >
+                <img src="jpg/Pngtre.png" class="card-img-top card-hover-effect djambaRemow" alt="...">
+                <div class="card-body ">
+                  <h4 class="card-title localization" caption='personal'>Личные качества</h4>
+                  <ul class="nonMargin">
+                      <li class="card-text localization" caption='qualities1'>Стресоустойчивость</li>
+                      <li class="card-text localization" caption='qualities2'>Ответственность</li>
+                      <li class="card-text localization" caption='qualities3'>Умение работать в команде</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col djambaRemow">
+              <div class="card wow bounceIn" >
+                <img src="jpg/language.png" class="card-img-top card-hover-effect djambaRemow" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title localization" caption='languageMe'>Знание языков</h4>
+                    <ul class="nonMargin">         
+                     <li class="card-text localization" caption='skillsLanguage1'>Украинский - родной язык.</li>
+                     <li class="card-text localization" caption='skillsLanguage2'>Русский - второй родной язык.</li>
+                     <li class="card-text localization" caption='skillsLanguage3'>Английский(изучаю) - beginner 2</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+              <div class="col djambaRemow">
+              <div class="card wow bounceIn">
+                <img src="jpg/driver.png" class="card-img-top card-hover-effect djambaRemow" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title localization" caption='skillDriver'>Вождение</h4>
+                   <ul class="nonMargin">
+                    <li class="card-text localization" caption='cardDriver'>Водительское удостоверение(категории):</li>
+                    <li class="card-text localization" >A, B, C.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- джамбатрон -->
+        <div class="mt-5" >
+          <h2 class="localization"  id="muHobbies" caption='hobbies'>Поговорим о хобби</h2>
+          <div class="mt-4 p-4 bg-dark text-white rounded djambaRemow ">
+            <h1 class="localization" caption='whatIdo'>Чем я занимаюсь в свободное время</h1> 
+            <p class="localization" caption='whatDoing'>У каждого из нас есть свое любимое занятие,  и может быть даже не одно. Идеальный вариант, когда работа и интересы совпадают, но это не всегда так. В свое свободное время я путешествую. 
+              Это не всегда какая-то новая страна. Учитывая нынешнюю «ОБСТАНОВКУ» это практически невозможно, но жизнь на этом не останавливается.  Мне нравится японская кухня ,и я решил попробовать сам что-то приготовить) и получилось.  Экстремальные виды спорта приносят уйму эмоций, и хочется  еще, и еще). Это и стало одним из вдохновений сверстать сайт в этом направлении.  Надеюсь мое новое влечение станет моей новой работой). 
+              Все преграды преодолимы! Главное – ЖЕЛАНИЕ.</p> 
+          </div>
+        </div>
+          <!-- хобби -->
+          <div class="row text-center mt-5">
+            <h2 class="localization" caption='hob'>Хобби</h2>
+          </div>
+          <div class="row row-cols-1 row-cols-md-4 g-4 mt-2 ">
+             <div class="col wow bounceIn">
+              <div class="card bodyhobbi ">
+                <img src="jpg/sushi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title localization" caption='japon'>Японская кухня</h5>
+                  <p class="card-text localization" caption='japonKitchen'>Кто не любит японскую кухню?) Вот и я о том же. В свободное время и в обычные время
+                    мне нравится готовить суши и роллы. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col wow bounceIn">
+              <div class="card bodyhobbi">
+                <img src="jpg/daiving.jpg" class="card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title localization" caption='daiving'>Дайвинг</h5>
+                  <p class="card-text localization" caption='dip'>Побывавши на море или озере, думаю,  каждый из нас брал маску 
+                    и пытался  что-то разглядеть под водой.
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col wow bounceIn">
+              <div class="card bodyhobbi">
+                <img src="jpg/piramid.jpg" class="card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title localization" caption='travel'>Путешествие</h5>
+                  <p class="card-text localization" caption='goTravel'>Не говорите, что никто не любит путешествовать!!! Даже поход в магазин можно назвать путешествием!
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col wow bounceIn">
+              <div class="card bodyhobbi">
+                <img src="jpg/bike.jpg" class="card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title localization" caption='xtreme'>Экстрим</h5>
+                  <p class="card-text localization" caption='tolkExtrym'>Эмоции должны быть разные. Не всем подходит, но мне нравится. Главное – безопасность! И все возможно!
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+                  <!-- джамбатрон -->
+        <div class="mt-5" id="aboutMe">
+          <h2 class="localization" caption='aboutMeNav'>Обо мне</h2>
+          <div class="mt-4 p-4 bg-dark text-white rounded djambaRemow ">
+            <h1 class="localization" caption='whatIToDo'>Где я работал</h1> 
+            <p class="localization" caption='myLifeWork'>Начинал работать еще в студенческие годы. Но это была больше подработка. Начинал работать курьером. Здесь, я получил огромны опыт  в вождении. Я считаю, что это не менее важно в жизни. В это время у меня появился интерес к японской кухни.  Я по вечерам , взамен на опыт, начал учиться в японском ресторане.  Позже меня пригласили на работу в нем. После завершения учебы в институте, я начал пробовать себя в области права. Недолго проработав, я разочаровался в моем выборе профессии и пошел в гуманитарную организацию по разминированию. Проработав в ней, я забыл, что такое личная жизнь. Постоянные командировки на протяжении года начали сказываться на мне. Родных и близких видел 1-2 раза в месяц.  После этого решил поискать работу по месту жительства.  Хотелось получать хороший доход рядом с домом и приятный коллектив. Но не все так просто. Подвернулось место администратора.  Работа, по своему , интересна, неплохой заработок, но без развития и карьерного роста. Немного подумав, я решил попробовать себя в верстке. Начал изучать базу. Я заинтересовался.  В скором времени все получится. О своих навыках  и качествах могу сказать, что я коммуникабелен и могу работать в команде. Ответственность и стараться делать все вовремя мне привили еще в детстве. С этим у меня не было проблем никогда.  Пунктуальный. Стараюсь правильно распределять время для выполнения поставленных задач.</p> 
+          </div>
+        </div>            
+         
+    <footer class=" position-sticky top-100">
+      <div class=" row  d-flex justify-content-between mt-4 pt-5"  >
+        <div class="col-2" ><a href="https://www.linkedin.com/in/%D0%B5%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BF%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D0%B5%D0%BD%D0%BA%D0%BE-167082249/"><img src="jpg/linkedinn.svg" width="40" height="40" alt=""></a></div>
+        <div class="col-2"><a href=""><img src="jpg/facebookkk.svg" width="40" height="40" alt=""></a></div>
+        <div class="col-2"><a href="https://t.me/+mebb6BNa2MlmNTZi"><img src="jpg/telegramm.svg" width="40" height="40" alt=""></a></div>
+        <div class="col-2"><a href="mailto:prokopenkoevgeniy123@gmail.com"><img src="jpg/email.svg" width="40" height="40" alt=""></a></div>
+        <div class="col-2"><a href=""><img src="jpg/whatsapp.svg" width="45" height="45" alt=""></a></div>
+        <div class="col-1 ">
+          <p id="back-top" class="float-end wow bounce" data-wow-duration="2s"  data-wow-iteration="100">
+            <a href="#top"><img  src="jpg/up-arrow.svg"   width="40" height="40" alt=""></a>
+          </p>
+          <div id="contactMe"></div>
+      </div>
+      </div>
+    </div>
+   </footer>
+    <script src="js/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="libs/jquery-3.6.0.min.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
+  
+</body>
+</html>
